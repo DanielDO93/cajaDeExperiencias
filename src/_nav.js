@@ -12,28 +12,24 @@ export default {
     },
 
     {
-      name: '¿QUÉ ES LA ERGONOMETRIA? ',
+      name: 'Sentieminetos ',
       icon: 'icon-tag',
       
     },
 
     {
-      name: '¿POR QUE DEBEMOS CONOCERLA? ',
+      name: 'Agradecimientos ',
       icon: 'icon-tag',
      
     },
     {
-      name: 'RECOMENDACIONES',
+      name: 'Caja Experiencias',
       icon: 'icon-tag',
      
     },
+   
     {
-      name: 'CONCLUSIÓN',
-      icon: 'icon-tag',
-     
-    },
-    {
-      name: 'EVALUACIÓN ',
+      name: 'Evaluación ',
       icon: 'icon-puzzle',
     
     },
