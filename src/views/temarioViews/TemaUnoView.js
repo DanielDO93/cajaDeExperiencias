@@ -40,6 +40,12 @@ class TemaUnoView extends Component {
                 id="toggler"
                 style={{ marginBottom: '1rem' }}
               >
+                 <img
+                      src={miedo}
+                      style={{ width: 300 }}
+                      alt="miedo.jpg"
+                      className="img-fluid bordeImagen  animated  fadeInDown  delay-0s"
+                    /><br/>
                 Miedo
               </Button>
               <UncontrolledCollapse toggler="#toggler">
@@ -56,12 +62,7 @@ class TemaUnoView extends Component {
                       máxima expresión del miedo es el terror. Además el miedo
                       está relacionado con la ansiedad.
                     </p>
-                    <img
-                      src={miedo}
-                      style={{ width: 300 }}
-                      alt="miedo.jpg"
-                      className="img-fluid bordeImagen  animated  fadeInDown  delay-1s"
-                    />
+                   
                   </CardBody>
                 </Card>
               </UncontrolledCollapse>
@@ -73,6 +74,12 @@ class TemaUnoView extends Component {
                 id="toggler2"
                 style={{ marginBottom: '1rem' }}
               >
+                 <img
+                      src={enfado}
+                      style={{ width: 300 }}
+                      alt="enfado"
+                      className="img-fluid bordeImagen  animated  fadeInDown  delay-0s"
+                    /><br/>
                 Enfado
               </Button>
               <UncontrolledCollapse toggler="#toggler2">
@@ -84,12 +91,7 @@ class TemaUnoView extends Component {
                       indignación, furia y/o anhelo de venganza o revancha. El
                       concepto se emplea como sinónimo de enojo.
                     </p>
-                    <img
-                      src={enfado}
-                      style={{ width: 300 }}
-                      alt="enfado"
-                      className="img-fluid bordeImagen  animated  fadeInDown  delay-1s"
-                    />
+                   
                   </CardBody>
                 </Card>
               </UncontrolledCollapse>
@@ -101,6 +103,12 @@ class TemaUnoView extends Component {
                 id="toggler3"
                 style={{ marginBottom: '1rem' }}
               >
+                 <img
+                      src={tristeza}
+                      style={{ width: 300 }}
+                      alt="tristeza"
+                      className="img-fluid bordeImagen  animated  fadeInDown  delay-0s"
+                    /><br/>
                 Tristeza
               </Button>
               <UncontrolledCollapse toggler="#toggler3">
@@ -114,12 +122,7 @@ class TemaUnoView extends Component {
                       falta de ánimo, baja autoestima, en otros estados de
                       insatisfacción.
                     </p>
-                    <img
-                      src={tristeza}
-                      style={{ width: 300 }}
-                      alt="tristeza"
-                      className="img-fluid bordeImagen  animated  fadeInDown  delay-1s"
-                    />
+                   
                   </CardBody>
                 </Card>
               </UncontrolledCollapse>
@@ -134,6 +137,12 @@ class TemaUnoView extends Component {
                     id="toggler4"
                     style={{ marginBottom: '1rem' }}
                   >
+                    <img
+                          src={alegria}
+                          style={{ width: 300 }}
+                          alt="alegria"
+                          className="img-fluid bordeImagen  animated  fadeInDown  delay-1s"
+                        /><br/>
                     Alegría
                   </Button>
                   <UncontrolledCollapse toggler="#toggler4">
@@ -146,12 +155,7 @@ class TemaUnoView extends Component {
                           profunda y más grande de la alegría es el amor, por
                           cuanto implica también una relación con los demás.
                         </p>
-                        <img
-                          src={alegria}
-                          style={{ width: 300 }}
-                          alt="alegria"
-                          className="img-fluid bordeImagen  animated  fadeInDown  delay-1s"
-                        />
+                        
                       </CardBody>
                     </Card>
                   </UncontrolledCollapse>
@@ -162,6 +166,12 @@ class TemaUnoView extends Component {
                     id="toggler5"
                     style={{ marginBottom: '1rem' }}
                   >
+                     <img
+                          src={amor}
+                          style={{ width: 300 }}
+                          alt="amor"
+                          className="img-fluid bordeImagen  animated  fadeInDown  delay-1s"
+                        /><br/>
                     Amor
                   </Button>
                   <UncontrolledCollapse toggler="#toggler5">
@@ -175,12 +185,7 @@ class TemaUnoView extends Component {
                           la que se desea tener una relación o convivencia bajo
                           el mismo techo.
                         </p>
-                        <img
-                          src={amor}
-                          style={{ width: 300 }}
-                          alt="amor"
-                          className="img-fluid bordeImagen  animated  fadeInDown  delay-1s"
-                        />
+                       
                       </CardBody>
                     </Card>
                   </UncontrolledCollapse>
