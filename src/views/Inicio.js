@@ -5,15 +5,12 @@ import withAuth from '../services/withAuth'
 //import { addProfile, setCampaign, darkTheme,setAvatar } from '../../Redux/Actions/profile';
 import Navegador from './temarioViews/ComponentsNavTemari/Navegador'
 import BienvenidaView from './temarioViews/BienvenidaView'
-import ObjetivoView from './temarioViews/ObjetivoView'
+//import ObjetivoView from './temarioViews/ObjetivoView'
 import TemaUnoView from './temarioViews/TemaUnoView'
 import TemaDosView from './temarioViews/TemaDosView'
 import TemaTresView from './temarioViews/TemaTresView'
 import TemaCuatroView from './temarioViews/TemaCuatroView'
-import TemaCincoView from './temarioViews/TemaCincoView'
-import TemaSeisView from './temarioViews/TemaSeisView'
-import DespedidaView from './temarioViews/DespedidaView'
-import Actividad1View from './temarioViews/Actividad1View'
+
 
 //import RecapitulacionView from './temarioViews/RecapitulacionView'
 
@@ -39,16 +36,15 @@ class Inicio extends Component {
       <div className="animated fadeIn">
         <Card>
           {this.state.index === 0 ? (
-           
-           <BienvenidaView />
+            <BienvenidaView />
           ) : //
           this.state.index === 1 ? (
-              <TemaUnoView />
+            <TemaUnoView />
           ) : this.state.index === 2 ? (
             <TemaDosView />
           ) : this.state.index === 3 ? (
             <TemaTresView />
-          ) : this.state.index === 4? (
+          ) : this.state.index === 4 ? (
             <TemaCuatroView />
           ) : null}
           <br />
