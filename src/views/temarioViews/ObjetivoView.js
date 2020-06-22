@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { CardBody, CardHeader, Col, Row } from 'reactstrap'
-import Objetivo from '../../assets/img/ImgErgonometria/objetivo.jpg'
 
 class ObjetivoView extends Component {
   loading = () => (
@@ -30,12 +29,7 @@ class ObjetivoView extends Component {
               </div>
             </Col>
             <Col xs="12" sm="12" className="centrado-fila">
-              <img
-                src={Objetivo}
-                style={{ width:400 }}
-                alt="Objetivo"
-                className="img-fluid bordeImagen  animated  fadeInDown  delay-1s"
-              />
+            
             </Col>
             <Col xs="12" sm="12" className="mt-4 text-center">
               <h3 className="animated  fadeInDown  delay-3s">
