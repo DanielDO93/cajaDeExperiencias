@@ -129,7 +129,7 @@ class TemaUnoView extends Component {
             </Col>
           </Row>
           <Row className="centrado-fila" >
-            <Col xs="12" sm="10" md="9" className="animated zoomInUp delay-0s ">
+            <Col xs="12" sm="10" md="9" className="">
               <Row className="">
                 <Col md="6">
                   <Button
