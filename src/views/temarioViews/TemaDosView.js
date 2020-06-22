@@ -6,7 +6,6 @@ import {
   Row,
   
 } from 'reactstrap'
-import classnames from 'classnames'
 import agradecimiento from '../../assets/img/ImgCaja/agradecimientos.jpg'
 
 class TemaDosView extends Component {
