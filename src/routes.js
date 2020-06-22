@@ -8,8 +8,7 @@ const TemaUnoView = React.lazy(() => import('./views/temarioViews/TemaUnoView'))
 const TemaDosView = React.lazy(() => import('./views/temarioViews/TemaDosView'));
 const TemaTresView = React.lazy(() => import('./views/temarioViews/TemaTresView'));
 const TemaCuatroView = React.lazy(() => import('./views/temarioViews/TemaCuatroView'));
-const TemaCincoView = React.lazy(() => import('./views/temarioViews/TemaCincoView'));
-const TemaSeisView = React.lazy(() => import('./views/temarioViews/TemaSeisView'));
+
 const Actividad2View = React.lazy(() => import('./views/temarioViews/Actividad2View'));
 
 
@@ -22,8 +21,7 @@ const routes = [
   { path: '/temarioViews/TemaDosView', name: 'Lineamientos generales de la Metodología P 1', component: TemaDosView },
   { path: '/temarioViews/TemaTresView', name: 'Lineamientos generales de la Metodología P 2', component: TemaTresView },
   { path: '/temarioViews/TemaCuatroView', name: 'Lineamientos generales de la Metodología P 3', component: TemaCuatroView },
-  { path: '/temarioViews/TemaCincoView', name: 'Descripción del procedimiento ', component: TemaCincoView },
-  { path: '/temarioViews/TemaSeisView', name: 'Seguimiento de operaciones', component: TemaSeisView },
+ 
   { path: '/temarioViews/Actividad2View', name: 'Actividad', component: Actividad2View },
 
 ];
