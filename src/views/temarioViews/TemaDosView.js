@@ -4,16 +4,10 @@ import {
   CardHeader,
   Col,
   Row,
-  TabContent,
-  TabPane,
-  Nav,
-  NavItem,
-  NavLink,
+  
 } from 'reactstrap'
 import classnames from 'classnames'
-import dos01 from '../../assets/img/ImgErgonometria/dos-01.jpg'
-import dos02 from '../../assets/img/ImgErgonometria/dos-02.jpg'
-import dos03 from '../../assets/img/ImgErgonometria/dos-03.jpg'
+import agradecimiento from '../../assets/img/ImgCaja/agradecimientos.jpg'
 
 class TemaDosView extends Component {
   loading = () => (
@@ -30,13 +24,14 @@ class TemaDosView extends Component {
         </CardHeader>
         <CardBody className="">
           <Row className="">
-            <Col xs="12" className="animated zoomInUp delay-1s">
+            <Col xs="12" className="">
               <h2>Agradecimientos </h2>
+              <p>¿Qué es un agradecimiento?</p>
             </Col>
           </Row>
-          <Row>
+          <Row className="centrado-fila">
             <Col xs="6">
-              <p>¿Qué es un agradecimiento?</p>
+             
               <p style={{ marginBottom: '0px' }}>
                 <b>Agradecimiento</b>{' '}
               </p>
@@ -44,6 +39,14 @@ class TemaDosView extends Component {
                 La gratitud es un sentimiento, emoción o actitud de
                 reconocimiento de un beneficio que se ha recibido o recibirá.
               </p>
+              <div className="centrado-fila">
+              <img
+                src={agradecimiento}
+                style={{ width:400 }}
+                alt="agradecimiento.png"
+                className="img-fluid bordeImagen   animated  fadeInDown  delay-2s"
+              />
+              </div>
             </Col>
             <Col xs="6">
               <p>
