@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import { CardBody, CardHeader, Col, Row } from 'reactstrap'
-import cuatro from '../../assets/img/ImgErgonometria/cuatro.jpeg'
-import cuatro02 from '../../assets/img/ImgErgonometria/cuatro02.png'
 
 class TemaCuatroView extends Component {
   loading = () => (
